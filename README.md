@@ -40,8 +40,8 @@ MRI-CT-Scan-3D-Visualizer/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/ai-ct-mri-visualizer.git
-cd ai-ct-mri-visualizer
+git clone https://github.com/your-username/mri-ct-scan-3d-visualizer.git
+cd mri-ct-scan-3d-visualizer
 ````
 
 2. **Create a virtual environment and activate it:**
