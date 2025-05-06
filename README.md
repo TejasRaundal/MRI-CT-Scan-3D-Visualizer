@@ -1,0 +1,82 @@
+# 🧠 MRI/CT Scan 3D Visualizer
+
+This project is a Streamlit-based web application that processes DICOM images from CT or MRI scans, performs preprocessing and segmentation, and visualizes them in both 2D and interactive 3D using Plotly. Designed to aid medical imaging research and analysis, this tool is ideal for quick visualization of scan data.
+
+## 🚀 Features
+
+- ✅ Upload and preview DICOM files
+- 🧼 Image preprocessing: normalization, noise reduction, etc.
+- ✂️ Threshold-based segmentation for tissue isolation
+- 📊 2D visualization with custom colormaps
+- 🌐 3D volume rendering using Plotly
+- 🎚 Adjustable parameters for transparency (alpha), threshold, and color maps
+
+## 📁 Project Structure
+
+MRI-CT-Scan-3D-Visualizer/
+├── streamlit_app.py # Main Streamlit interface
+├── src/
+│ ├── loader.py # DICOM loading logic
+│ ├── preprocessor.py # Image preprocessing functions
+│ ├── utils.py # utilities
+│ └── visualizer.py # 2D and 3D rendering functions
+├── requirements.txt # Python dependencies
+└── README.md
+
+markdown
+Copy
+Edit
+
+## 🧠 Technologies Used
+
+- **Python 3.8+**
+- **Streamlit** – Web interface
+- **Plotly** – 3D visualizations
+- **Pydicom** – DICOM image parsing
+- **NumPy / SciPy** – Image processing
+- **OpenCV** – Optional image enhancement
+
+## ⚙️ Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/ai-ct-mri-visualizer.git
+   cd ai-ct-mri-visualizer
+Create a virtual environment and activate it:
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the app:
+
+bash
+Copy
+Edit
+streamlit run streamlit_app.py
+🖼 Preview
+
+🧪 Example Use Cases
+Medical students studying anatomy via CT/MRI scans
+
+Radiologists for preliminary scan previews
+
+Research projects that require rapid visual analysis
+
+
+📄 License
+This project is open-source and available under the MIT License.
+
+🤝 Contributors
+Tejas Yadav Raundal
+Nikhil Dattatraya Kale
+Shubham Devidas Kadam
+Vivek Dnyaneshwar Shinde
+
