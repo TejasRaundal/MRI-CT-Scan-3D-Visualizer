@@ -16,10 +16,10 @@ This project is a Streamlit-based web application that processes DICOM images fr
 ```
 
 MRI-CT-Scan-3D-Visualizer/
-├── streamlit\_app.py            # Main Streamlit interface
+├── streamlit_app.py            # Main Streamlit interface
 ├── src/
 │   ├── loader.py               # DICOM loading logic
-│   ├── preprocessor.py         # Image preprocessing functions
+│   ├── preprocessing.py         # Image preprocessing functions
 │   ├── utils.py                # Utilities
 │   └── visualizer.py           # 2D and 3D rendering functions
 ├── requirements.txt            # Python dependencies
@@ -30,11 +30,11 @@ MRI-CT-Scan-3D-Visualizer/
 ## 🧠 Technologies Used
 
 - **Python 3.8+**  
-- **Streamlit** – Web interface  
+- **Streamlit** – Web interface
+- **Matplotlib** – 2D and 3D visualizations  
 - **Plotly** – 3D visualizations  
 - **Pydicom** – DICOM image parsing  
 - **NumPy / SciPy** – Image processing  
-- **OpenCV** – Optional image enhancement  
 
 ## ⚙️ Installation
 
