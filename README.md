@@ -20,7 +20,6 @@ MRI-CT-Scan-3D-Visualizer/
 ├── src/
 │   ├── loader.py               # DICOM loading logic
 │   ├── preprocessing.py         # Image preprocessing functions
-│   ├── utils.py                # Utilities
 │   └── visualizer.py           # 2D and 3D rendering functions
 ├── requirements.txt            # Python dependencies
 └── README.md
