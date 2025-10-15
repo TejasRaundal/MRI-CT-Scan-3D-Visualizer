@@ -1,6 +1,6 @@
 # 🧠 MRI/CT Scan 3D Visualizer
 
-This project is a Streamlit-based web application that processes DICOM images from CT or MRI scans, performs preprocessing and segmentation using SciPy, and visualizes them in both 2D and interactive 3D using Matplotlib and Plotly. Designed to aid medical imaging research and analysis, this tool is ideal for quick visualization of scan data.
+This project is a Streamlit-based web application that processes DICOM images from CT or MRI scans, performs preprocessing and segmentation using SciPy, and visualizes them in both 2D and interactive 3D using Matplotlib and Plotly. Designed to aid medical imaging research and analysis, this tool is ideal for quick visualization of scan data. 
 
 ## 🚀 Features
 
@@ -82,3 +82,4 @@ This project is open-source and available under the **MIT License**.
 * Nikhil Dattatraya Kale
 * Shubham Devidas Kadam
 * Vivek Dnyaneshwar Shinde
+
