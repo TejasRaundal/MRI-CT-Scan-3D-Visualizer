@@ -40,4 +40,5 @@ def plotly_3d_volume(volume, alpha=0.6, cmap='gray', threshold=0.1, max_dim=64):
         width=800,
         height=800
     )
-    return fig
+
+    return fig 
