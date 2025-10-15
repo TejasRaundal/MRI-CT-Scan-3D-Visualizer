@@ -49,5 +49,3 @@ if volume is not None:
     st.subheader("🧊 3D Volume Viewer")
     fig3d = plotly_3d_volume(processed, alpha=alpha, cmap=cmap.lower(), threshold=threshold)
     st.plotly_chart(fig3d, use_container_width=True)
-
-    
