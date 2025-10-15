@@ -6,4 +6,4 @@ pydicom
 nibabel
 scikit-image
 Pillow
-plotly
+plotly 
